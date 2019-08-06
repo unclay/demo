@@ -1,0 +1,21 @@
+{
+  "useConfigFiles": false,
+  "plugins": {
+    "@vue/cli-plugin-babel": {},
+    "@vue/cli-plugin-eslint": {
+      "config": "airbnb",
+      "lintOn": [
+        "save"
+      ]
+    }
+  },
+  "router": false,
+  "routerHistoryMode": false,
+  "vuex": false,
+  "cssPreprocessor": "less",
+  "configs": {
+    "vue": {
+      "outputDir": "root"
+    }
+  }
+}
